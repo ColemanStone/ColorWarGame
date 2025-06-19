@@ -585,7 +585,6 @@ class AISim:
         MAX_FACTIONS = 150
         total_cells = max(1, self.grid_width * self.grid_height)
         new_grid = [row[:] for row in self.grid]
-        self.grid = new_grid
 
         for y in range(self.grid_height):
             for x in range(self.grid_width):
