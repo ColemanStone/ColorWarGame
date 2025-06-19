@@ -467,7 +467,7 @@ class AISim:
                 dominant_ratio = dominant_count / total_cells
 
                 if dominant_ratio >= 0.5:
-                    decay_strength = int(dominant_ratio * 200)  # scales up to 140 tiles
+                    decay_strength = int(dominant_ratio * 200)  # scales up to 200 tiles
                     removed = 0
                     for _ in range(2000):
                         x = random.randint(0, self.grid_width - 1)
