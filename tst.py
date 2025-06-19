@@ -1,4 +1,4 @@
-# ColorWarGame.py — Eternal AI Faction Simulator (Console-Free Enhanced)
+# tst.py — Eternal AI Faction Simulator (Console-Free Enhanced)
 
 import random
 import threading
