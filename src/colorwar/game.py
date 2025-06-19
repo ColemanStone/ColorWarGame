@@ -50,7 +50,10 @@ class ColorWarGame:
                 for dx, dy in directions:
                     nx, ny = x + dx, y + dy
                     if 0 <= nx < self.grid_width and 0 <= ny < self.grid_height:
-                        if new_grid[ny][nx] is None and random.random() < 0.25:
+                        if (
+                            new_grid[ny][nx] is None
+                            and random.random() < faction.expansion_chance
+                        ):
                             new_grid[ny][nx] = color
                             break
         self.grid = new_grid
