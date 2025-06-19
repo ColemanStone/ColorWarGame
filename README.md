@@ -18,3 +18,17 @@ This will open a window and spawn a few random factions that expand each frame.
 ## Legacy Code
 
 The original experimental implementation lives in `src/ColorWarGame.py` and is retained for reference but it is quite large and unstructured.
+
+## Running Tests
+
+Install the development requirements:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Then execute the test suite with:
+
+```bash
+pytest
+```
