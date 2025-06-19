@@ -10,10 +10,12 @@ This repository contains a small pygame experiment that simulates colored factio
 ## Running the simplified version
 
 ```bash
-python -m colorwar.main
+python -m colorwar.main --grid-size 80 60 --factions 5
 ```
 
-This will open a window and spawn a few random factions that expand each frame.
+Running the module launches the game window. Command line options allow you to
+configure the grid size, number of factions and more. Use ``--help`` to see all
+available flags.
 
 ## Legacy Code
 
