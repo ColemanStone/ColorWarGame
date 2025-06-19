@@ -66,4 +66,3 @@ from the game or use the folder for your own save games.
 - **Save**, **Load**, **New Game**, and **Quit** buttons appear at the bottom of
 the window.
 - Press `Esc` or `Q` at any time to close the game window.
-
